@@ -25,6 +25,20 @@ dark-gray: #2d3651
     color: #481c9f;
 }
 
+.color-orange {
+    color: #fc3d22;
+}
+
+.bg-purple {
+    background-color: #481c9f;
+    color:#fff;
+}
+
+.bg-orange {
+    background-color: #fc3d22;
+    color:#fff;
+}
+
 /*Header menu*/
 header {
     border-bottom: solid 2px #e0e0e0;
@@ -32,6 +46,10 @@ header {
 
 header div {
     margin-right: 15%;
+}
+
+p {
+    line-height: 1.8;
 }
 
 .navbar-light .navbar-brand {
@@ -54,7 +72,7 @@ header div {
     transition-timing-function: ease;
 }
 
-.navbar-light .navbar-nav .active > .nav-link {
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > a:active {
     border: solid 2px #fc3d22;
     border-radius: 10px;
 }
@@ -62,6 +80,11 @@ header div {
 .navbar-light .navbar-nav .nav-link i, .navbar-light .navbar-nav .auth > a,
 .navbar-light .navbar-nav .active > .nav-link {
     color: #fc3d22;
+}
+
+.navbar-toggler i {
+    color: #fc3d22;
+    font-size: 32px;
 }
 
 /*End Header menu*/
@@ -82,9 +105,19 @@ header div {
     transition-timing-function: ease;
 }
 
-.leave {
-    padding-top: 250px;
-    padding-bottom: 250px;
+.space {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.space-md {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.space-sm {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .leave h1 {
@@ -93,7 +126,7 @@ header div {
     color: #481c9f;
 }
 
-.leave h2 {
+.leave h2, .title-big {
     font-size: 100px;
     font-weight: 800;
     /* color: #2d3651; */
@@ -106,16 +139,191 @@ header div {
     padding-bottom: 30px;
 }
 
-#self-storage {
-    /* padding-top: 50px; */
-    padding-bottom: 200px;
+.card-offer p {
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
-#self-storage h2 {
-    font-size: 50px;
+.card-offer h3 {
+    padding: 10px;
 }
 
 #self-storage p {
     font-size: 18px;
 }
+
+.check-city {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.check-city i {
+    color: #fc3d22;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wrong-title {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#lockr-units .card {
+    width: 360px;
+    border-radius: 30px;
+    padding: 50px 30px 50px 30px;
+    color: #e0e0e0;
+}
+
+#lockr-units .card p {
+    color: #e0e0e0;
+}
+
+#clients img {
+    height: 70px;
+    width: 70px;
+}
+
+.client-comment {
+    padding-right: 77px;
+    height: 220px;
+}
+
+.client-info {
+    padding-top: 10px;
+}
+
+.client-info p {
+    line-height: 0.2;
+}
+
+#wrong {
+    padding-top: 12%;
+}
+
+#wrong a:hover {
+    color: #e0e0e0;
+    background-color: #dd3b25;
+}
+
+.text-small {
+    font-size: small;
+}
+
+#large-lockr, #standard-lockr {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+#our-units {
+    padding: 70px 100px 70px 100px;
+    width: 70%;
+    border-radius: 50px;
+}
+
+#our-units div div h2 {
+    color: #e0e0e0;
+    font-size: 85px;
+    font-weight: 800;
+    padding-bottom: 30px;
+} 
+
+#our-units div div h4 {
+    color: #e0e0e0;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.card-clock {
+    width: 280px;
+    padding: 20px 20px 40px 20px;
+    border-radius: 30px;
+    float: right;
+    font-size: 18px;
+}
+
+.card-clock img {
+    padding: 15px;
+}
+
+.card-clock p {
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
+#termsCondition {
+    text-decoration: underline;
+}
+
+#termsCondition:hover {
+    color: #481c9f;
+}
+
+.lockr-input {
+    color: #fff;
+    background-color: #2d3651;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.lockr-input-2 {
+    color: #2d3651;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #2d3651;
+}
+
+form a:hover {
+    color: #e0e0e0;
+}
+
+#storageMap:hover {
+    color: #dd3b25;
+}
+
 /*end section*/
+
+/* footer */
+
+footer img {
+    /* font-size: 42px;
+    font-weight: 800;
+    color: #2d3651; */
+    margin-bottom: 0.5rem;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 50px 150px 50px 150px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    color: #2d3651;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #fc3d22;
+}
+
+hr {
+    height: 1px;
+    background-color: #e0e0e0;
+}
+/* end footer */
